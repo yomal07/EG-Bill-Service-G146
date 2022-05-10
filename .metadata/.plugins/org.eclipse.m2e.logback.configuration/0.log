@@ -350,3 +350,15 @@ java.net.URISyntaxException: Illegal character in path at index 20: file:/C:/Use
 2022-05-10 21:31:15,045 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\main\resources
 2022-05-10 21:31:15,047 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-10 21:31:15,048 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\test\resources
+2022-05-10 21:42:44,621 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 21:42:44,623 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\main\resources
+2022-05-10 21:42:44,624 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 21:42:44,626 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\test\resources
+2022-05-10 21:42:57,754 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 21:42:57,755 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\main\resources
+2022-05-10 21:42:57,757 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 21:42:57,758 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\test\resources
+2022-05-10 21:44:02,955 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 21:44:02,957 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\main\resources
+2022-05-10 21:44:02,958 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 21:44:02,959 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\test\resources

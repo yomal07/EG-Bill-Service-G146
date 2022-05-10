@@ -111,11 +111,10 @@ public class Bill {
 			 output += "<td>" + meterReader_name + "</td>";
 			 
 			 // buttons
-			 output += "<td><input name='btnUpdate' type='button' value='Update' class='btn btn-secondary'></td>"
-			 + "<td><form method='post' action='bills.jsp'>"
-			 + "<input name='btnRemove' type='submit' value='Remove' class='btn btn-danger'>"
-			 + "<input name='itemID' type='hidden' value='" + billID 
-			 + "'>" + "</form></td></tr>"; 
+			 output += "<td><input name='btnUpdate' type='button' value='Update'"
+					 +"class='btnUpdate btn btn-secondary' data-billID='"+billID+"'></td>"
+					 +"<td><input name='btnRemove' type='button' value='Remove'"
+					 + "class='btnRemove btn btn-danger' data-billID='" + billID + "'></td></tr>";
 			 } 
 			 con.close(); 
 			 // Complete the html table
@@ -123,7 +122,7 @@ public class Bill {
 		 } 
 		 catch (Exception e) 
 		 { 
-			 output = "Error while reading the items."; 
+			 output = "Error while reading the bills."; 
 			 System.err.println(e.getMessage()); 
 		 } 
 		 return output; 

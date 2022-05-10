@@ -426,3 +426,7 @@ java.net.URISyntaxException: Illegal character in path at index 20: file:/C:/Use
 2022-05-10 22:38:26,733 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\main\resources
 2022-05-10 22:38:26,735 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-10 22:38:26,736 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\test\resources
+2022-05-10 22:42:08,835 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 22:42:08,836 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\main\resources
+2022-05-10 22:42:08,836 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 22:42:08,837 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yomal Bandara\Desktop\FrontEnd_EG\EG_FrontEnd_BillService\src\test\resources

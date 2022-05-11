@@ -33,7 +33,7 @@ $(document).on("click", "#btnSave", function(event) {
 });
 
 // CLIENT-MODEL================================================================
-function validateItemForm() {
+/*function validateBillForm() {
 	// BILL CODE
 	if ($("#billCode").val().trim() == "") {
 		return "Insert Bill Code.";
@@ -61,6 +61,39 @@ function validateItemForm() {
 		return "Insert Meter reader name.";
 	}
 	return true;
+}*/
+function validateBillForm(){
+	//BILL CODE
+	if($("#billCode").val().trim() == ""){
+		return "Insert Bill Code";
+	}
+	
+	//Account Number
+	if($("#accountNo").val().trim() == ""){
+		return "Insert Account Number.";
+	}
+	
+	//Bill month
+	if($("#billMonth").val().trim() == ""){
+		return "Insert bill month";
+	}
+	
+	//Number of units
+	if($("#units").val().trim() == ""){
+		return "Enter number of units";
+	}
+	
+	//is numeric
+	var tmpUnits = $("#units").val().trim();
+	if (!$.isNumeric(tmpUnits)) {
+		return "Insert a numerical value for Units field.";
+	}
+	
+	//Meter reader name
+	if($("#meterReader_name").val().trim() == ""){
+		return "Insert meter reader name";
+	}
+	return true;
 }
 
 function onItemSaveComplete(response, status) {
@@ -81,8 +114,8 @@ function onItemSaveComplete(response, status) {
 		$("#alertError").text("Unknown error while saving..");
 		$("#alertError").show();
 	}
-	$("#hidItemIDSave").val("");
-	$("#formItem")[0].reset();
+	$("#hidBillIDSave").val("");
+	$("#formBill")[0].reset();
 }
 
 //Upate==========================================

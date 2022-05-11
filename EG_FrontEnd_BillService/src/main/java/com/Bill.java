@@ -1,12 +1,9 @@
 package com;
 
-import java.sql.Connection;
+import java.sql.*;
 
 
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Statement;
+
 
 public class Bill {
 	// A common method to connect to the DB
@@ -119,9 +116,9 @@ public class Bill {
 			 
 			 // buttons
 			 output += "<td><input name='btnUpdate' type='button' value='Update'"
-					 +"class='btnUpdate btn btn-secondary' data-billID='"+billID+"'></td>"
+					 +"class='btnUpdate btn btn-secondary' data-billid='"+billID+"'></td>"
 					 +"<td><input name='btnRemove' type='button' value='Remove'"
-					 + "class='btnRemove btn btn-danger' data-billID='" + billID + "'></td></tr>";
+					 + "class='btnRemove btn btn-danger' data-billid='" + billID + "'></td></tr>";
 			 } 
 			 con.close(); 
 			 // Complete the html table

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="com"/>
 			<item value="EG_FrontEnd_BillService"/>
 		</list>
 		<list key="name">

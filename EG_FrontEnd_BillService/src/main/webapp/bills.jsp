@@ -11,6 +11,14 @@
 <script src="Components/bill.js"></script>
 </head>
 <body>
+	<nav class="navbar navbar-light bg-secondary" >
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"> <img
+				src="Views/EGLogo.png" alt="" width="50"
+				height="50" class="d-inline-block align-text-top"> ELECTRO GRID
+			</a>
+		</div>
+	</nav>
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
@@ -25,11 +33,11 @@
 					Units: <input id="units" name="units" type="text"
 						class="form-control form-control-sm"> <br>Meter
 					Reader Name: <input id="meterReader_name" name="meterReader_name"
-						type="text" class="form-control form-control-sm"> <input
+						type="text" class="form-control form-control-sm"> <br/><input
 						id="btnSave" name="btnSave" type="button" value="Save"
-						class="btn btn-primary"> <input type="hidden"
+						class="btn btn-warning"> <input type="hidden"
 						id="hidBillIDSave" name="hidBillIDSave" value="">
-				</form>
+				</form><br/>
 				<div id="alertSuccess" class="alert alert-success"></div>
 				<div id="alertError" class="alert alert-danger"></div>
 				<br>

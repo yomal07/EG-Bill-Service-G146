@@ -82,7 +82,7 @@ public class Bill {
 				 return "Error while connecting to the database for reading."; 
 			 } 
 			 // Prepare the html table to be displayed
-			 output = "<table border='1'><tr><th>Bill Code</th>" +
+			 output = "<table border='1' class='table table-sm table-secondary'><tr><th>Bill Code</th>" +
 			 "<th>Account No</th>" + 
 			 "<th>Bill Month</th>" +
 			 "<th>Units</th>" +
@@ -116,7 +116,7 @@ public class Bill {
 			 
 			 // buttons
 			 output += "<td><input name='btnUpdate' type='button' value='Update'"
-					 +"class='btnUpdate btn btn-secondary' data-billid='"+billID+"'></td>"
+					 +"class='btnUpdate btn btn-warning' data-billid='"+billID+"'></td>"
 					 +"<td><input name='btnRemove' type='button' value='Remove'"
 					 + "class='btnRemove btn btn-danger' data-billid='" + billID + "'></td></tr>";
 			 } 
